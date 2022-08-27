@@ -1,0 +1,35 @@
+<!--start_header-->
+<?xml version="1.0" encoding="UTF-8"?>
+ <manialinks id='%manialinksid%'>
+   <manialink id='%widgetid%'>
+   <frame posn="%widgetpos%">
+
+<!--end_header-->
+
+<!--start_defaultstate-->
+     <quad sizen="31 8.5" posn="-10 8.5 0" style="%style%" substyle="%substyle%"/>
+     <format textsize="1"/>
+	 <quad sizen="9 6" posn="10.7 7.1 0.05" image="http://img181.imageshack.us/img181/7375/fish4.png"/>
+	 <frame posn="-6 0"> 
+     	<label sizen="5 2" halign="right" posn="-0.3 7.5 0.1" text="Next:"/>
+     	<quad sizen="17 6.9" posn="0 7.7 0.05" style="%style%" substyle="%substyle%"/>
+	 	<quad sizen="2.6 2.6" halign="right" posn="3 7.6 0.1" style="Icons64x64_1" substyle="Finish"/>
+     	<quad sizen="2 2" halign="right" posn="2.75 5.1 0.1" style="BgRaceScore2" substyle="ScoreReplay"/>
+     	<quad sizen="2 2" halign="right" posn="2.75 3.1 0.1" style="Icons128x128_1" substyle="ChallengeAuthor"/>
+	    <label sizen="13 2" posn="3.3 6.9 0.1" text="%nextname%"/>
+	    <label sizen="6 2" posn="3.3 4.9 0.1" text="%nextauthortime%"/>
+	    <label sizen="5 2" posn="3.3 2.9 0.1" text="%nextauthor%"/>
+	 	<quad sizen="2.3 2.3" halign="right" posn="11 5.25 0.1" style="Icons128x128_1" substyle="Advanced"/>
+	 	<quad sizen="2.3 2.3" halign="right" posn="11 3.25 0.1" style="Icons128x128_1" substyle="Manialink"/>
+	 	
+	    <label sizen="5 2" posn="11.3 4.9 0.1" text="%nextenv%"/>
+	    <label sizen="5 2" posn="11.3 2.9 0.1" text="%nextmood%"/>
+    </frame>
+	 
+<!--end_defaultstate--> 
+
+<!--start_footer-->
+    </frame>
+ </manialink>
+ </manialinks> 
+<!--end_footer-->

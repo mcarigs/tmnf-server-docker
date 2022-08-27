@@ -1,0 +1,31 @@
+<!--start_header-->
+<?xml version="1.0" encoding="UTF-8"?>
+ <manialinks id='%manialinksid%'>
+   <manialink id='%widgetid%'>
+   <frame posn="0 0 0">
+
+<!--end_header-->
+
+<!--start_window-->
+	 <quad sizen="%adsize%" posn="%adpos% 0.05" style="%style%" substyle="%substyle%"/>
+<!--end_window--> 
+
+<!--start_image-->
+	 <quad sizen="%adsize%" posn="%adpos% 0.06" url="%adurl%" manialink="%admanialink%" image="%image%"/>
+<!--end_image-->
+
+<!--start_image_mouseover-->
+	 <quad sizen="%adsize%" posn="%adpos% 0.06" url="%adurl%" manialink="%admanialink%" image="%image%" imagefocus="%imagefocus%"/>
+<!--end_image_mouseover-->
+
+<!--start_text-->
+     <format textsize="1"/>
+	 <label halign="%halign%" valign="%valign%" sizen="%adsize%" posn="%adpos% 0.061" url="%adurl%" manialink="%admanialink%" text="%text%"/>
+<!--end_text-->
+
+<!--start_footer-->
+    </frame>
+ </manialink>
+ </manialinks>
+ 
+<!--end_footer-->

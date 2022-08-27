@@ -1,0 +1,57 @@
+<!--start_header-->
+<?xml version="1.0" encoding="UTF-8"?>
+ <manialinks id='%manialinksid%'>
+<!--end_header-->
+<!--start_header_window-->   
+   <manialink id='%widgetid%'>
+   <frame posn="%widgetpos%">
+<!--end_header_window-->   
+
+
+<!--start_window-->
+     <quad sizen="%width% %height%" posn="0 0 0.001" style="%style%" substyle="%substyle%"/>
+<!--end_window--> 
+
+<!--start_title-->
+     <quad sizen="12 2" halign="center" posn="%titlepos% 1.7 0.00" style="%style%" substyle="%substyle%"/>
+     <format textsize="1"/>
+     <label sizen="30 2" halign="center" posn="%titlepos% 1.5 0.1" text="$s%widgettitle%"/>
+<!--end_title-->
+
+<!--start_windowtop-->
+     <quad sizen="%width% %height%" posn="%x% %y% 0.0011" style="%topstyle%" substyle="%topsubstyle%"/>
+<!--end_windowtop--> 
+
+<!--start_entry-->
+     <format textsize="1"/>
+     <label sizen="30 2" halign="right" posn="%x_rank% %y% 0.1" text="%rank%"/>
+	 <label sizen="30 2" halign="right" posn="%x_score% %y% 0.1" text="%score%"/>
+	 <label sizen="%nickwidth% 2" posn="%x_nick% %y% 0.1" text="%nick%"/>
+<!--end_entry--> 
+
+<!--start_highlight_entry-->
+     <quad sizen="%width% 2.2" posn="0.5 %y% 0.002" style="%highlitestyle%" substyle="%highlitesubstyle%"/>
+     <frame posn="0 %y% 0">
+      <quad sizen="2.2 2.7" posn="-1.3 0.25 0.2" style="Icons64x64_1" substyle="ArrowGreen"/>
+      <quad sizen="1.6 1.6" posn="%x% -0.25 0.3" style="Icons64x64_1" substyle="LvlGreen"/>
+     </frame>
+<!--end_highlight_entry--> 
+
+<!--start_highlight_entry_arrow_only-->
+     <frame posn="0 %y% 0">
+      <quad sizen="2.2 2.7" posn="-1.3 0.25 0.2" style="Icons64x64_1" substyle="ArrowGreen"/>
+      <quad sizen="1.6 1.6" posn="%x% -0.25 0.3" style="Icons64x64_1" substyle="LvlGreen"/>
+     </frame>
+<!--end_highlight_entry_arrow_only--> 
+
+<!--start_separator-->
+     <quad sizen="%width% 0.1" posn="0.1 %y% 0.09" style="Bgs1InRace" substyle="BgCard1"/>
+<!--end_separator--> 
+	
+<!--start_footer_window-->
+    </frame>
+ </manialink>
+<!--end_footer_window-->
+<!--start_footer-->
+ </manialinks>
+<!--end_footer-->

@@ -1,0 +1,20 @@
+<!--start_header-->
+<?xml version="1.0" encoding="UTF-8"?>
+ <manialinks id='%manialinksid%'>
+   <manialink id='%widgetid%'>
+   <frame posn="%widgetpos%">
+
+<!--end_header-->
+
+<!--start_window-->
+     <quad sizen="5 2" posn="0 0 0.001" style="%style%" substyle="%substyle%"/>
+     <format textsize="1"/>
+     <label sizen="5 2" halign="center" posn="2.5 -0.3 0.1" text="%time%"/>
+<!--end_window--> 
+
+<!--start_footer-->
+    </frame>
+ </manialink>
+ </manialinks>
+ 
+<!--end_footer-->

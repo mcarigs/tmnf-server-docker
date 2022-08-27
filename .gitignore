@@ -1,0 +1,4 @@
+.env
+.vscode/
+update.sh
+set_env_vars.sh

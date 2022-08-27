@@ -1,0 +1,22 @@
+version: '3.3'
+
+services:
+  tmserver:
+    image: tmnf-server:latest
+    container_name: tmserver
+    env_file: .env
+    build: .
+    restart: always
+    volumes:
+      - ./xaseco:/var/lib/xaseco
+      - ./tracks:/var/lib/tmserver/GameData/Tracks/Challenges/Custom  # Custom tracks
+      - ./music:/var/lib/tmserver/GameData/Music                      # Custom music
+      - ./playlist.txt:/var/lib/tmserver/playlist.txt                 # Custom track playlist
+      - ./blacklist:/var/lib/xaseco/blacklist                         # Plugin blacklist
+      - ./plugins:/var/lib/xaseco/plugins/custom                      # Custom plugins
+      - ./config:/var/lib/xaseco/config                               # Custom configuration files
+    ports:
+      - "2350:2350/udp"
+      - "2350:2350/tcp"
+      - "3450:3450/udp"
+      - "3450:3450/tcp"

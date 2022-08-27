@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+
+	<!--amount of seconds the karma and record widgets wait until they refresh if needed(increase if you experience problems on populated servers)-->
+	<updateinterval>2</updateinterval>
+	
+	<!--defines the main manialink style used for the widgets-->
+	<style>Bgs1InRace</style>
+	<substyle>NavButton</substyle>
+
+	<!-- experimental option to adapt the aseco style -->
+	<aseco_config_file>config.xml</aseco_config_file>
+	<use_aseco_style>false</use_aseco_style>
+	
+	<!--defines the manialink style for the highlit entries in the records widgets -->
+	<highlitestyle>BgsPlayerCard</highlitestyle>
+	<highlitesubstyle>BgCardSystem</highlitesubstyle>
+
+	<!--defines the manialink style for the top X players entries in the records widgets -->
+	<topstyle>BgsPlayerCard</topstyle>
+	<topsubstyle>BgCardSystem</topsubstyle>
+	
+	<!--define the text shown in the chat when you disactivate/activate the display of the record widgets-->
+	<recordwidgetsdisabled>Your record widgets are now hidden, press F7 to reactivate them.</recordwidgetsdisabled>
+	<recordwidgetsenabled>Your record widgets are now shown, press F7 to hide them.</recordwidgetsenabled>
+	<togglingdisabled>Sorry, you can't toggle the record widgets at the moment. There are too many players on the server, so they are in static mode now.</togglingdisabled>
+
+	<colortopcount>$ff0</colortopcount>
+	<colorbetter>$f00</colorbetter>
+	<colorworse>$08f</colorworse>
+	<colorself>$3f5</colorself>
+	
+	<!--the high performance mode is my attempt to reduce the manialink calls, if a specific amount of players is on the server-->
+	<highperformancemode>
+		<enabled>true</enabled>
+		<lowerlimit>40</lowerlimit> <!--If the playercount gets equal to or below that limit, the widgets will revert to default mode-->
+		<upperlimit>42</upperlimit> <!--If the playercount gets above that limit, the widgets will switch to high performance mode-->
+		<staticmode>true</staticmode> <!--With staticmode enabled, the record widgets will get rid of personal information and only display
+											plain top10 lists (or whatever number they display in your configuration), this will heavily 
+											decrease the number of manialink calls but will also deactivate the possibility of hiding the widgets-->
+		<displayedrecordwidgets> <!--These settings specify which widgets will be shown in high performance mode, by deactivating
+									some of them, you can also gain performance-->
+			<localrecordswidget>true</localrecordswidget>
+			<liverankingswidget>true</liverankingswidget>
+			<dedimaniawidget>true</dedimaniawidget>
+		</displayedrecordwidgets>											
+	</highperformancemode>
+	
+</settings>

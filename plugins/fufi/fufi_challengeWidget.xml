@@ -1,0 +1,81 @@
+<!--start_header-->
+<?xml version="1.0" encoding="UTF-8"?>
+ <manialinks id='%manialinksid%'>
+   <manialink id='%widgetid%'>
+   <frame posn="%widgetpos%">
+
+<!--end_header-->
+
+<!--start_defaultstate-->
+
+     <quad sizen="21 8.5" posn="0 8.5 0.001" action="%widgetid%1" style="%style%" substyle="%substyle%"/>
+     <format textsize="1"/>
+	 <quad sizen="9 6" posn="10.7 7.1 0.05" image="http://img181.imageshack.us/img181/7375/fish4.png"/>
+	 <quad sizen="3.5 3.5" posn="-0.3 3.2 0.05" image="http://img181.imageshack.us/img181/5825/ll_open.png"/>
+     <quad sizen="2.6 2.6" halign="right" posn="3.7 7.6 0.1" style="Icons64x64_1" substyle="Finish"/>
+     <quad sizen="2 2" halign="right" posn="3.45 5.2 0.1" style="BgRaceScore2" substyle="ScoreReplay"/>
+     <quad sizen="2 2" halign="right" posn="3.45 3 0.1" style="Icons128x128_1" substyle="ChallengeAuthor"/>
+     <label sizen="14.5 2" posn="4 6.9 0.1" text="%trackname%"/>
+	 <label sizen="14.5 2" posn="4 4.9 0.1" text="%authortime%"/>
+	 <label sizen="14.5 2" posn="4 2.9 0.1" text="%author%"/>
+<!--end_defaultstate--> 
+
+<!--start_maxstate-->
+     <quad sizen="57 8.5" posn="-36 8.5 0" action="%widgetid%0" style="%style%" substyle="%substyle%"/>
+     <format textsize="1"/>
+	 <quad sizen="9 6" posn="10.7 7.1 0.05" image="http://img181.imageshack.us/img181/7375/fish4.png"/>
+	 <quad sizen="3.5 3.5" posn="-36.3 3.2 0.05" image="http://img181.imageshack.us/img181/8726/ll_close.png"/>
+
+	 <frame posn="-31.6 0"> 
+     	<label sizen="5 2" halign="right" posn="-0.3 7.5 0.1" text="Next:"/>
+     	<quad sizen="17 6.9" posn="0 7.7 0.05" style="%style%" substyle="%substyle%"/>
+	 	<quad sizen="2.6 2.6" halign="right" posn="3 7.6 0.1" style="Icons64x64_1" substyle="Finish"/>
+     	<quad sizen="2 2" halign="right" posn="2.75 5.1 0.1" style="BgRaceScore2" substyle="ScoreReplay"/>
+     	<quad sizen="2 2" halign="right" posn="2.75 3.1 0.1" style="Icons128x128_1" substyle="ChallengeAuthor"/>
+	    <label sizen="13 2" posn="3.3 6.9 0.1" text="%nextname%"/>
+	    <label sizen="6 2" posn="3.3 4.9 0.1" text="%nextauthortime%"/>
+	    <label sizen="5 2" posn="3.3 2.9 0.1" text="%nextauthor%"/>
+	 	<quad sizen="2.3 2.3" halign="right" posn="11 5.25 0.1" style="Icons128x128_1" substyle="Advanced"/>
+	 	<quad sizen="2.3 2.3" halign="right" posn="11 3.25 0.1" style="Icons128x128_1" substyle="Manialink"/>
+	 	
+	    <label sizen="5 2" posn="11.3 4.9 0.1" text="%nextenv%"/>
+	    <label sizen="5 2" posn="11.3 2.9 0.1" text="%nextmood%"/>
+    </frame>
+	 
+	 <quad sizen="2.6 2.6" halign="right" posn="3.7 7.6 0.1" style="Icons64x64_1" substyle="Finish"/>
+     <quad sizen="2 2" halign="right" posn="3.45 5.2 0.1" style="BgRaceScore2" substyle="ScoreReplay"/>
+     <quad sizen="2 2" halign="right" posn="3.45 3 0.1" style="Icons128x128_1" substyle="ChallengeAuthor"/>
+     <label sizen="14.5 2" posn="4 6.9 0.1" text="%trackname%"/>
+	 <label sizen="14.5 2" posn="4 4.9 0.1" text="%authortime%"/>
+	 <label sizen="14.5 2" posn="4 2.9 0.1" text="%author%"/>
+	 <label sizen="5 2" halign="right" posn="-8.6 7.5 0.1" text="Current:"/>
+     <quad sizen="9 6.9" posn="-8.3 7.7 0.05" style="%style%" substyle="%substyle%"/>
+     <quad sizen="2 2" halign="right" posn="-5.55 7.1 0.1" style="MedalsBig" substyle="MedalGold"/>
+     <quad sizen="2 2" halign="right" posn="-5.55 5.1 0.1" style="MedalsBig" substyle="MedalSilver"/>
+     <quad sizen="2 2" halign="right" posn="-5.55 3.1 0.1" style="MedalsBig" substyle="MedalBronze"/>
+     <format textsize="1"/>
+     <label sizen="14.5 2" posn="-5 6.9 0.1" text="%goldtime%"/>
+	 <label sizen="14.5 2" posn="-5 4.9 0.1" text="%silvertime%"/>
+	 <label sizen="14.5 2" posn="-5 2.9 0.1" text="%bronzetime%"/>
+<!--end_maxstate--> 
+
+<!--start_tmxbutton-->
+     <quad sizen="4.8 2.4" halign="right" posn="-8.6 3.3 0.1" action="%widgetid%2" style="BgsPlayerCard" substyle="BgCardSystem"/>
+	 <quad sizen="4.4 2.2" halign="right" posn="-8.8 3.1 0.3" image="http://img181.imageshack.us/img181/5075/tmx.png"/>
+<!--end_tmxbutton-->
+
+ <!--start_footer-->
+    </frame>
+ </manialink>
+ </manialinks> 
+<!--end_footer-->
+
+<!--start_customui-->
+ <custom_ui>
+ <notice visible="true"/>
+ <challenge_info visible="false"/>
+ <net_infos visible="false"/>
+ <chat visible="true"/>
+ <checkpoint_list visible="true"/>
+ </custom_ui>
+ <!--end_customui-->
